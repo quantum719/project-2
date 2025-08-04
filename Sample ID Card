@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ID Card - Anay Niranjan Deshmukh</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+    }
+    .id-card {
+      width: 400px;
+      height: 250px;
+      background-color: white;
+      border: 2px solid #333;
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      gap: 16px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    }
+    .left {
+      width: 90px;
+      text-align: center;
+      font-size: 12px;
+      color: #fff;
+      background: #19406f;
+      border-radius: 8px 0 0 8px;
+      padding: 10px 5px;
+    }
+    .left .barcode {
+      background: #fff;
+      color: black;
+      padding: 5px;
+      margin: 10px 0;
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
+    }
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .photo {
+      width: 100px;
+      height: 120px;
+      background-color: #ccc;
+      border: 2px solid #666;
+      background-size: cover;
+      background-position: center;
+    }
+    .info {
+      font-size: 14px;
+    }
+    .info b {
+      color: #000;
+    }
+    .logo {
+      text-align: right;
+      font-size: 12px;
+      color: #c40000;
+      font-weight: bold;
+    }
+    .footer {
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="id-card">
+    <div class="left">
+      <div>Blood Group: B+</div>
+      <div class="barcode">1262241070</div>
+    </div>
+    <div class="right">
+      <div class="logo">
+        MIT-WPU<br>
+        <span style="color: orange;">Faculty of Engineering and Technology</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 16px;">
+        <div class="photo" style="background-image: url('your-photo.jpg');"></div>
+        <div class="info">
+          <b>Anay Niranjan Deshmukh</b><br>
+          Integrated B.Tech in Computer Science and Engineering
+        </div>
+      </div>
+      <div class="footer">
+        ID Valid Until: (Optional Date)<br>
+        Emergency Contact: (Optional Number)
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
