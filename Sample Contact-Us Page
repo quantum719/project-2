@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body {
+      margin: 0;
+      font-family: cursive;
+      background-color: yellow;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center; 
+      margin-top: 50px;
+    }
+
+    .content {
+      display: flex;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      width: 70%; 
+    }
+
+    .left,
+    .right {
+      flex: 1;
+    }
+
+    .left {
+      padding-right: 20px;
+      text-align: left;
+    }
+
+    .right {
+      padding-left: 20px;
+      text-align: right;
+    }
+
+    input {
+      display: block;
+      margin-bottom: 15px;
+      padding: 10px;
+      width: 100%;
+      font-size: 1rem;
+    }
+  </style>
+<body style="background-color: yellow;">
+    <a href="http://127.0.0.1:5500/contact_us.htm">
+        <img src="pngegg.png" height="70px" type=".pngegg" alt="Saul Goodman Logo">
+    </a>
+        <img src="pngwing.com.png" height="150px" type="pngwing" alt="Another Saul logo" style="display: block; margin: -100px auto 0 auto;">
+    
+    
+        <h1 style="font-size: 50px; font-family: 'Dancing Script', cursive; color: red; text-align: center;"> Having Legal Trouble? Better call Saul!</h1>
+      <div class="container">
+       <div class="content"> 
+        <div class="left">
+           <form>
+               
+                <label for="email" style="font-size: larger;">Email: </label><br>
+                <input type="email" id="email" required placeholder="innocent@notguilty.com" style="padding: 10px; margin-top: 8px; font-size: 1rem; width: 250px;">
+               
+                <label for="number" style="font-size: larger;">Number: </label><br>
+                <input type="number" id="number" required placeholder="(123) 456-7890" style="padding: 10px; margin-top: 8px; font-size: 1rem; width: 250px;">
+               
+                <label for="name" style="font-size: larger;">Name: </label><br>
+                <input type="text" id="name" required placeholder="Sinless Steve" style="padding: 10px; margin-top: 8px; font-size: 1rem; width: 250px;">
+            
+                <label for="Yapping" style="font-size: larger;">Your brief legal issue: </label><br>
+                <textarea id="Yapping" required placeholder="Leave it to Saul!" style="padding: 10px; margin-top: 8px; font-size: 1rem; width: 250px;"></textarea>
+                <button type="submit">Just Tell Saul!</button>
+            </form> 
+        </div>
+        <div class="right">
+            
+            <p style="font-size: larger;"><strong>Office:</strong> 9800 Montgomery Blvd NE, Albuquerque, NM 87111</p>
+            <p style="font-size: larger;"><strong>Phone:</strong> (505) 503-4455</p>
+            <p style="font-size: larger;"><strong>Email:</strong> Saul.Goodman@LWYRUP.com</p>
+            <p style="font-size: larger;"><strong>Working Hours:</strong> 9am - 6pm, Sundays Off</p>
+        </div>
+       </div>
+      </div>  
+      <footer style="text-align: center;">
+    &copy; 2025 Saul Goodman & Associates. All rights reserved. <br>
+    Legal trouble? <strong>Better Call Saul!</strong>
+  </footer>
+    
+</body>
+</html>
