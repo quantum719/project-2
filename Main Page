@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My portfolio</title>
+</head>
+<style>
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        line-height: 1.6;
+        margin: auto 5%;
+    }
+    h1 {
+        text-align: center;
+    }
+</style>
+<body>
+    <main>
+        <h1 style="font-size: xx-large;">Anay Deshmukh</h1>
+        <p>CSE Student at MIT-WPU College, Pune</p>
+        <hr>
+        <h1>About me</h1>
+        <p>I am a student doing an integrated diploma corse for CSE in MIT-WPU College, Pune. I am very passionate about learning
+            programming, and hope to forever further and broaden my skills going forward in my life. Some more details have been 
+            provided in the below section:
+        </p>
+        <nav>
+            <a href="About.html">About me</a>
+        </nav>
+        <hr>
+        <h1>My Projects</h1>
+        <p>These are some projects that i have worked on:</p>
+        <nav>
+            <a href="Projects.html">Projects</a>
+        </nav>
+        <hr>
+        <h1>My Knowledge base/Experience</h1>
+        <p>Here i have described the small experience that i have with coding and programming:</p>
+        <nav>
+            <a href="Experience.html">Experience</a>
+        </nav>
+        <hr>
+        <h1>My Contacts</h1>
+        <p>Here are some paths through which i can be contacted, at any time:</p>
+        <nav>
+            <a href="Contacts.html">Contacts</a>
+        </nav>
+    </main>
+    
+</body>
+</html>
