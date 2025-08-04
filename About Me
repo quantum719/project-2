@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Me</title>
+</head>
+<style>
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        line-height: 1.6;
+        margin: auto 5%;
+    }
+    h1 {
+        text-align: center;
+    }
+</style>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <h1>About me</h1>
+    <p>Hello! My name is <strong>Anay Deshmukh</strong>, and i am a student at the Maharashtra Institute of Technology, 
+        In Kothrud, Pune. I am studying in an Integrated Diploma B.Tech CSE course, which helps me in getting an early 
+        headstart in the programming world. While i may not know too much about it yet, I am willing to learn and expand 
+        my experience and knowledge base.</p>
+    <br>
+    <a href="project-2.htm">Back to main Page</a>
+</body>
+</html>
